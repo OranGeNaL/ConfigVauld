@@ -8,5 +8,5 @@ services:
       - MAC_ADDRESS=value
       - ADMIN_PASSWORD=value
     volumes:
-      -$HOME/bot:/app/volume:rw
-      -$HOME/torrent:/app/torrent:rw
+      - $HOME/bot:/app/volume:rw
+      - $HOME/torrent:/app/torrent:rw
