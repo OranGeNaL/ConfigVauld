@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  bot:
+    image: orangenal/recipes-maven:latest
+    restart: always
+    ports:
+      - "1080:8080"
+    volumes:
+      - hostPath:/app/db:rw
