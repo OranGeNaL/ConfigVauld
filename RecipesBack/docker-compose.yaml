@@ -7,3 +7,4 @@ services:
       - "1080:8080"
     volumes:
       - hostPath:/app/db:rw
+      - hostPath:/app/recipe-photo:rw
